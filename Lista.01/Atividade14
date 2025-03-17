@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N1 = sc.nextInt();
+        int N2 = sc.nextInt();
+
+        int Soma = N1 + N2;
+        int cubo = Soma * Soma * Soma;
+
+        double RaizQuadrada = Math.sqrt(cubo);
+
+    
+        System.out.println(Soma + " " + cubo + " " + String.format("%.2f", RaizQuadrada));
+    }
+}

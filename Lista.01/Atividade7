@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc  = new Scanner (System.in);
+        int NumFun = sc.nextInt();
+        int Horas = sc.nextInt();
+        float Salario = sc.nextFloat();
+        float HTra = Salario*Horas;
+        System.out.println("NUMERO = " +NumFun);
+        System.out.printf("SALARIO = R$ %.2f%n", HTra);
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main{
+    
+    public static void main (String[]args){
+        Scanner sc = new Scanner(System.in);
+        
+        float Numero1 = sc.nextFloat();
+        float Numero2 = sc.nextFloat();
+        float Numero3 = sc.nextFloat();
+        float Numero4 = sc.nextFloat();
+        
+        int Peso1 =1, Peso2 =2, Peso3 =3, Peso4 =4;
+        float MediaPonderada=(Numero1*Peso1+Numero2*Peso2+Numero3*Peso3+Numero4*Peso4)/(Peso1+Peso2+Peso3+Peso4);
+        
+        System.out.printf("Média ponderada: %.2f\n", MediaPonderada);
+    }
+}

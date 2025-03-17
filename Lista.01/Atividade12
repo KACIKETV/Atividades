@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double salarioMinimo = sc.nextDouble();
+        double salarioPessoa = sc.nextDouble();
+        double quantidadeSalariosMinimos = salarioPessoa / salarioMinimo;
+
+        System.out.printf("A pessoa recebe %.2f salários mínimos.\n", quantidadeSalariosMinimos);
+    }
+}

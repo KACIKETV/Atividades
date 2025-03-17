@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main (String[]args){
+        
+        Scanner sc = new Scanner (System.in);
+       // System.out.println("Digite o primeiro número (dividedo): ");
+        int Dividendo = sc.nextInt();
+        //System.out.println("Digite o segundo número (Divisor): ");
+        int Divisor = sc.nextInt();
+        
+        // Calcular 
+        int Quociente = Dividendo/Divisor;
+        int Resto     = Dividendo%Divisor;
+        
+        //Resultado
+        System.out.println( Dividendo + " " + Divisor + " " + Quociente + " " + Resto);
+    }
+}

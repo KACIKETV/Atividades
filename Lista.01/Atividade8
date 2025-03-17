@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[]args) {
+	    
+		Scanner sc = new Scanner (System.in);
+		float Base   = sc.nextFloat();
+		float Altura = sc.nextFloat();
+		
+		float Formula = 3;
+		float Mult   =  Base*Altura;
+		float Dividi = Mult/Formula;
+		
+	//	System.out.println("Entrada: " +Base+ " " +Altura);
+		System.out.printf("%.2f\n",Dividi);
+	}
+}

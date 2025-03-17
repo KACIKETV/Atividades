@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[]args){
+        Scanner sc = new Scanner (System.in);
+        
+        float A = sc.nextFloat();
+        float B = sc.nextFloat();
+        
+        float Peso1 = 3.5F;
+        float Peso2 = 7.5F;
+        
+        float SomadosPesos = Peso1+Peso2;
+        float Resultado    = (A*+Peso1)+(B*Peso2);
+        float MEDIA        = Resultado/11;
+        
+        System.out.printf("MEDIA = %.5f\n",MEDIA);
+        
+    }
+}
